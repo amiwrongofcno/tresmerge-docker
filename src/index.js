@@ -1,7 +1,7 @@
 const express = require('express');
-// const mongoose = require('mongoose');
+const mongoose = require('mongoose');
 const redis = require('redis');
-const { Client } = require('pg')
+// const { Client } = require('pg')
 
 // init app
 const PORT =process.env.PORT || 4000;
